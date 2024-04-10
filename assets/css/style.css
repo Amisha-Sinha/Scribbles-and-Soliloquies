@@ -1577,7 +1577,7 @@ textarea.input-field {
   width: 612px; */
   margin-left: auto; 
   margin-right: auto;
-  
+  padding: 0.75cm;
 }
 
 
@@ -1607,6 +1607,7 @@ textarea.input-field {
     width: 612px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 1.5cm;
   }
 
   .reservation .center-new
@@ -1834,6 +1835,7 @@ textarea.input-field {
     width: 612px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 1.5cm;
   }
 
   /**
@@ -1928,6 +1930,7 @@ textarea.input-field {
     width: 612px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 1.5cm;
   }
 
   /**
@@ -2106,6 +2109,7 @@ textarea.input-field {
     width: 612px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 1.5cm;
   }
 
   /**
@@ -2285,6 +2289,7 @@ textarea.input-field {
     width: 612px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 1.5cm;
   }
 
   /**
