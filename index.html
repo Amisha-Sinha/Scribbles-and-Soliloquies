@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Scribbles & Soliloquies</title>
+  <meta name="title" content="Scribbles and Soliloquies">
+  <meta name="description" content="This is a writing page as a one stop compilation for Amisha Sinha">
+
+  <!-- 
+    - favicon
+  -->
+  <link type="image/png" sizes="16x16" rel= "shortcut icon" href="./assets/images/quillpen.png">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Scribbles and Soliloquies</p>
+  </div>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/final_logo.png" width="160" height="50" alt="Scribbles & Soliloquies">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/final_logo.png" width="160" height="50" alt="Scribbles & Soliloquies">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="stories.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Stories</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="essays.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Essays</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+        <div class="text-center">
+          <p class="headline-2 navbar-title">Experience the Delight</p>
+
+          <div class="separator"></div>
+        </div>
+</nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">A singular hub of my literary creations</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Scribbles &<br>
+              Soliloquies
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Where Ink Meets Introspection
+            </p>
+
+            <a href="#featured" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Highlights</span>
+
+              <span class="text text-2" aria-hidden="true">Highlights</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Immersive & Invigorating</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              The center stage of <br>
+              retrospection
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Embark on a journey through the sea of thoughts and tales
+            </p>
+
+            <a href="#explore" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Explore</span>
+
+              <span class="text text-2" aria-hidden="true">Explore</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Profound & Thought-provoking</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              A personal chamber<br>
+              of reflections
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Celebrating compositions that stir emotions
+            </p>
+
+            <a href="#contact" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Contact</span>
+
+              <span class="text text-2" aria-hidden="true">Contact</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+      </section>
+
+      
+      <!-- 
+        - #FEATURED
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="featured" id="featured">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Appealing to all Sensibilities</p>
+
+          <h2 class="headline-1 section-title">Personal Highlights</h2>
+
+          <p class="section-text">
+           Some of the personal narratives, which I believe, would strike a cord with readers of 
+           all kinds. These compositions were written with a motive to appeal to the underlying sensibilities of individuals and 
+           to leave room for personal contemplation.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="familiarstrangers.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/familiarstrangers.jpg" width="285" height="336" loading="lazy" alt="Familiar strangers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>Familiar Strangers</p>
+                  </h3>
+
+                  <a href="familiarstrangers.html" class="btn-text hover-underline body-4">Read</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="silentsoliloquy.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/silentsoliloquy.jpg" width="285" height="336" loading="lazy" alt="The Silent Soliloquy" 
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>The Silent Soliloquy</p>
+                  </h3>
+
+                  <a href="silentsoliloquy.html" class="btn-text hover-underline body-4">Read</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="whispersoftheheart.html" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/whispersoftheheart.jpg" width="285" height="336" loading="lazy" alt="Whispers of the Heart" 
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <p>Whispers of the Heart</p>
+                  </h3>
+
+                  <a href="whispersoftheheart.html" class="btn-text hover-underline body-4">Read</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/quill.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/pen.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+       <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Weaving words onto the tapestry of Wisdom</h2>
+
+            <p class="section-text">
+              Scribbles & Soliloquies is a collection of all my personal compositions. It was incepted 
+              with the idea of creating a collection of all my written works. I have always wanted to consolidate
+              all my work into a singlular location which I could both, cherish and celebrate.
+            <p class="span-text section-text" id="more">
+              The joy of reading multiplies when shared. Hence, Scribbles & Soliloquies is not just a personal treasure
+              but also a platform for channelizing my personal thoughts through literary discourse because I firmly believe that success 
+              in any writing lies in the emotions and thoughts that it is able to evoke from its readers.
+              <br>With this goal in sight,<br> Welcome aboard Scribbles & Soliloquies!
+            </p>
+            </p>
+              
+            <p class="body-1 contact-number hover-underline">Happy Reading!</p>
+
+            <button id="mybtn" class="btn btn-primary" onclick="changeReadMore()">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </button>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/aboutimg.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/full_logo.png" width="300" height="300" loading="lazy" alt="Scribbles & Soliloquies"
+                class="w-100">
+            </div>
+
+          </figure>
+
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT ME
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/myself2.jpg" width="940" height="900" loading="lazy" alt="My image"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">ABOUT MYSELF</p>
+
+            <h2 class="headline-1 section-title">Amisha Sinha</h2>
+
+            <p class="section-text">
+              Greetings!
+            <br>
+            <br>
+             I am Amisha Sinha, the creator and sole author behind Scribbles & Soliloquies. 
+             Describing myself as a quietly observant soul amidst the hustle of everyday life, I attribute my passion for writing to the seeds of curiosity sown in my adolescence. 
+             <br>With an ardent love for literature, I find joy in crafting narratives that underline the subtle emotions often overlooked amidst life's clamor. 
+             <p class="span-text section-text" id="moreagain">
+             Through my stories, I endeavor not only to impart wisdom but also to provoke introspection. 
+            By establishing this platform, my aim is to curate a cherished collection of my work and foster a space for sharing thoughts, theories, and sentiments through diverse narratives. 
+             I earnestly hope that you appreciate the work. <br>It would mean the world to me! 
+            </p>
+            </p>
+
+            <button id="mybtn2" class="btn btn-primary" onclick="changeReadMoreAgain()">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </button>
+
+            <div class="wrapper">
+              <a href="https://www.instagram.com/amisha_misfit/" class="span body-1">
+                <img src="./assets/images/instagram.png" class="img-icn" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/in/amisha-sinha-202730240/" class="span body-1">
+                <img src="./assets/images/linkedin.png" class="img-icn" alt="LinkedIn">
+                </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+        <!-- 
+        - #COMPONENTS
+      -->
+
+      <section class="section event bg-new" aria-label="event" id="explore">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Components</p>
+
+          <h2 class="section-title headline-1 text-center">The Collection</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <a href="stories.html">
+                  <img src="./assets/images/stories.jpg" width="350" height="450" loading="lazy"
+                    alt="Where every page holds a world, and every word, a journey." class="img-cover">
+                    </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle body-4 text-center">STORIES</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Where every page holds a world, and every word, a journey. 
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <a href="essays.html">
+                  <img src="./assets/images/essays.jpg" width="350" height="450" loading="lazy"
+                    alt="Where chronicles of curiosity are revealed in ink." class="img-cover">
+                    </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle body-4 text-center">Essays</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Where chronicles of curiosity are revealed in ink.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #QUOTE
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/quote.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            We write to taste life twice, in the moment and in retrospect.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+            <p class="body-2 profile-name" style="color: white;">Anaïs Nin</p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="reservation" id="contact">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="https://script.google.com/macros/s/AKfycby8dmiw08Sa-04Y3TNULaI1vrGGat2FkaJCOij5boIo46JbtZ0Rd4N760zVyeenT5oRhw/exec" 
+            class="form-left gform" method="POST">
+
+              <h2 class="headline-1 text-center">Contact</h2>
+
+              <p class="form-text text-center">
+                Fill out the form to share your feedback!
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="email" name="email" placeholder="Email" autocomplete="off" class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Feedback/Queries" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Submit</span>
+
+                <span class="text text-2" aria-hidden="true">Submit</span>
+              </button>
+              <div style="display:none;"   class="input-wrapper container thankyou_message">
+                <p class="form-text text-center body-3" style="margin-top: 40px;"  >
+                  Thanks for your message! We will get back to you soon!
+                </p>
+                <!-- You can customize the thankyou message by editing the code below -->
+               </div>
+            </form>
+
+           
+
+            <div class="form-right center-new" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <img src="./assets/images/paper.png" width="246" height="412" loading="lazy" alt="shape"
+              class=" move-anim">
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer.png')">
+    <div class="container">
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Scribbles & Soliloquies. All Rights Reserved | Crafted with ❤️ by <a href="https://github.com/Amisha-Sinha"
+            target="_blank" class="link">Amisha Sinha</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="./assets/js/form-submission-handler.js"></script>
+
+</body>
+
+</html>
